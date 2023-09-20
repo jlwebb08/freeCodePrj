@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
-require('helmet')
-
+const helmet = require('helmet')
+const app = helmet();
 
 
 
